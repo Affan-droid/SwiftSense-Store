@@ -7,15 +7,15 @@ export default function HomePage() {
     <>
       
       <Hero title="SwiftSense" max="true">
-        <Link to="/admin" className="main-link" style={{ margin: "2rem" }}>
+        {/* <Link to="/admin" className="main-link" style={{ margin: "2rem" }}>
           Admin
-        </Link>
+        </Link> */}
         <Link to="/store" className="main-link" style={{ margin: "2rem" }}>
           Store
         </Link>
-        <Link to="/manufacture" className="main-link" style={{ margin: "2rem" }}>
+        {/* <Link to="/manufacture" className="main-link" style={{ margin: "2rem" }}>
           Manufacturer
-        </Link>
+        </Link> */}
       </Hero>
     </>
   );
